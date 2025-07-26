@@ -30,7 +30,7 @@ bash nmap -sS -sV -0 -T4 192.168.56.101
 
 ## Sanitized Scan Output
 
-Starting Nmap 7.93 ( https://nmap.org ) at 2025-07-17 14:42 UTC
+<pre> ```Starting Nmap 7.93 ( https://nmap.org ) at 2025-07-17 14:42 UTC
 Nmap scan report for target.local (192.168.56.101)
 Host is up (0.00023s latency).
 Not shown: 992 closed ports
@@ -48,7 +48,7 @@ MAC Address: [REDACTED]
 OS details: Linux 2.6.24 - 2.6.35
 Network Distance: 1 hop
 
-Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel  ``` </pre>
 
 ---
 
