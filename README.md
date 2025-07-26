@@ -21,7 +21,7 @@ This project demonstrates the use of Nmap to perform a basic vulnerability scan 
 
 bash nmap -sS -sV -0 -T4 192.168.56.101
 
--sS: SYN scan, 
+-sS: SYN scan
 -sV: Detect service versions 
 -O: Attempt OS detection
 -T4: Aggressive timing for quicker scans
